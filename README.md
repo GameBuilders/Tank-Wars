@@ -15,3 +15,5 @@ https://help.github.com/articles/fork-a-repo
 
 You should now have a local copy of Tank-Wars to play with. Just open the visual studio project file called Tank-Wars.sln.
 
+For more information about using git see https://help.github.com/categories/54/articles
+or other git tutorials online.
