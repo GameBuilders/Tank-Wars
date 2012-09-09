@@ -107,11 +107,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bullet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="TankWars.cs" />
-    <Compile Include="Tank.cs" />
+    <Compile Include="Source\Bullet.cs" />
+    <Compile Include="Source\Program.cs" />
+    <Compile Include="Source\Tank.cs" />
+    <Compile Include="Source\TankWars.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
