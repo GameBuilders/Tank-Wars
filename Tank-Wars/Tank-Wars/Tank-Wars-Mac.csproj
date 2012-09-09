@@ -76,38 +76,29 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Mono\MonoMac\v0.0\Mono.MonoMac.targets" />
   <ItemGroup>
-    <ProjectReference Include="MonoGame.Framework\MonoGame.Framework.MacOS.csproj">
+    <ProjectReference Include="lib\MonoGame.Framework\MonoGame.Framework.MacOS.csproj">
       <Project>{36C538E6-C32A-4A8D-A39C-566173D7118E}</Project>
       <Name>MonoGame.Framework.MacOS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Source\" />
+    <Folder Include="Properties\" />
     <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Source\Bullet.cs">
-      <Link>Source\Bullet.cs</Link>
-    </Compile>
-    <Compile Include="..\Source\Program.cs">
-      <Link>Source\Program.cs</Link>
-    </Compile>
-    <Compile Include="..\Source\Tank.cs">
-      <Link>Source\Tank.cs</Link>
-    </Compile>
-    <Compile Include="..\Source\TankWars.cs">
-      <Link>Source\TankWars.cs</Link>
-    </Compile>
-    <Compile Include="..\Source\Properties\AssemblyInfo.cs">
-      <Link>Source\Properties\AssemblyInfo.cs</Link>
-    </Compile>
+    <Compile Include="Source\Bullet.cs" />
+    <Compile Include="Source\Program.cs" />
+    <Compile Include="Source\Tank.cs" />
+    <Compile Include="Source\TankWars.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Content\Bullet.png">
-      <Link>Content\Bullet.png</Link>
-    </Content>
     <Content Include="..\Content\Tank.png">
       <Link>Content\Tank.png</Link>
+    </Content>
+    <Content Include="..\Content\Bullet.png">
+      <Link>Content\Bullet.png</Link>
     </Content>
   </ItemGroup>
 </Project>
