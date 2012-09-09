@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank-Wars", "Tank-Wars\Tank-Wars\Tank-Wars.csproj", "{04EBD952-A0F7-4203-A421-0237C97BCC11}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Tank-WarsContent", "Tank-Wars\Tank-WarsContent\Tank-WarsContent.contentproj", "{F8D3667B-FF01-44F9-8695-5CB6F073B1DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank-WarsContent", "Tank-Wars\Content\Tank-WarsContent.contentproj", "{F8D3667B-FF01-44F9-8695-5CB6F073B1DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
