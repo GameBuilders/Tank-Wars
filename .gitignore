@@ -3,7 +3,7 @@
 [Oo]bj/
 
 # Mac Files
-*.DS__Store
+*.DS_Store
 *.userprefs
 
 # mstest test results
